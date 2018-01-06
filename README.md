@@ -4,7 +4,9 @@ Version: 1.0
 
 ## Installation
 I recommend you install from NPM<br>
-`npm install jsalphadb`
+`npm install jsalphadb`<br>
+<br>
+Put this at the top of your javascript file.
 
 ```js
 var key = "Something"; // The secret key, though theres no point to changing it.
