@@ -3,7 +3,7 @@ Database system for NodeJS &amp; Port of phpAlphaDB
 Version: 1.0
 
 ## Installation
-I recommend you install from NPM\n
+I recommend you install from NPM<br>
 `npm install jsalphadb`
 
 ```js
@@ -16,7 +16,7 @@ const db = new jsAlphaDB(key, ext);
 Make sure node is allowed to write to the filesystem.
 
 ## Description
-This is a JavaScript Remake of the flatfile database system made by JQuery\n
+This is a JavaScript Remake of the flatfile database system made by JQuery<br>
 The purpose is to create a basic, easy to learn & use flat database system for applications
 
 ## License
