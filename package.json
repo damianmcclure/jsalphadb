@@ -1,0 +1,25 @@
+{
+  "name": "jsalphadb",
+  "version": "1.0.0",
+  "description": "Database system for NodeJS & Port of phpAlphaDB",
+  "main": "core.js",
+  "scripts": {
+    "test": "forever core.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcclureski/jsalphadb/"
+  },
+  "keywords": [
+    "jsalphadb",
+    "phpalphadb",
+    "unrealsecurity",
+    "unrealsecurity.net",
+    "flatfile",
+    "flat",
+    "db",
+    "database"
+  ],
+  "author": "Mcclures",
+  "license": "WTFPL"
+}
