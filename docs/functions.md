@@ -8,8 +8,7 @@ db.create("users");
 ```
 <br>
 Return Type: Boolean<true/false>
-<br>
-<br>
+
 ### db.delete()
 Description: Delete A Database<br>
 Example: <br>
