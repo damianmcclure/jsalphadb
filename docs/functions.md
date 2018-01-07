@@ -5,7 +5,8 @@ Description: Create A Database<br>
 Example: <br>
 ```js
 db.create("users");
-```<br>
+```
+<br>
 Return Type: Boolean<true/false>
 <br>
 <br>
@@ -14,7 +15,8 @@ Description: Delete A Database<br>
 Example:
 ```js
 db.delete("users");
-```<br>
+```
+<br>
 Return Type: Boolean<true/false>
 <br>
 <br>
