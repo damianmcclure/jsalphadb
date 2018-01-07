@@ -16,7 +16,7 @@ Example: <br>
 db.delete("users");
 ```
 <br>
-Return Type: Boolean<true/false>
+Return Type: Boolean&lt;true/false&gt;
 
 ### db.list()
 Description: List of Databases<br>
@@ -34,7 +34,7 @@ Example: <br>
 db.write("users", "id=1 username=blahblahblah password=md5stuff level=0");
 ```
 <br>
-Return Type: Boolean<true/false>
+Return Type: Boolean&lt;true/false&gt;
 
 
 ### db.rewrite()
@@ -44,7 +44,7 @@ Example: <br>
 db.rewrite("users", "id=1 username=blahblahblah password=md5stuff level=1");
 ```
 <br>
-Return Type: Boolean<true/false>
+Return Type: Boolean&lt;true/false&gt;
 
 ### db.writearr()
 Description: Write Multiple Entries At Once With An Array
@@ -55,7 +55,7 @@ var multi = ["id=1 username=John password=md5stuff level=0", "id=2 username=Jako
 db.writearr("users", multi, is_array_reversed);
 ```
 <br>
-Return Type: Boolean<true/false>
+Return Type: Boolean&lt;true/false&gt;
 
 ### db.read()
 Description: Read Entries In The Database
@@ -68,4 +68,4 @@ var users = db.read("users", "", "id username password level");
 var user1 = db.read("users", "id=1", "id username password level");
 ```
 <br>
-Return Type: Array<string>
+Return Type: Array&lt;string&gt;
