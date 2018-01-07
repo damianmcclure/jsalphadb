@@ -7,7 +7,7 @@ Example: <br>
 db.create("users");
 ```
 <br>
-Return Type: Boolean<true/false>
+Return Type: Boolean&lt;true/false&gt;
 
 ### db.delete()
 Description: Delete A Database<br>
