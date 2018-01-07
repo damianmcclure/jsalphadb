@@ -28,7 +28,7 @@ db.list();
 Return Type: String
 
 ### db.write()
-Description: Write Entries To The Database (make sure the db is created)
+Description: Write Entries To The Database (make sure the db is created)<br>
 Example: <br>
 ```js
 db.write("users", "id=1 username=blahblahblah password=md5stuff level=0");
@@ -38,7 +38,7 @@ Return Type: Boolean&lt;true/false&gt;
 
 
 ### db.rewrite()
-Description: Rewrite Entries To The Database (make sure the db is created)
+Description: Rewrite Entries To The Database (make sure the db is created)<br>
 Example: <br>
 ```js
 db.rewrite("users", "id=1 username=blahblahblah password=md5stuff level=1");
@@ -47,7 +47,7 @@ db.rewrite("users", "id=1 username=blahblahblah password=md5stuff level=1");
 Return Type: Boolean&lt;true/false&gt;
 
 ### db.writearr()
-Description: Write Multiple Entries At Once With An Array
+Description: Write Multiple Entries At Once With An Array<br>
 Example: <br>
 ```js
 var is_array_reversed = false;
@@ -58,7 +58,7 @@ db.writearr("users", multi, is_array_reversed);
 Return Type: Boolean&lt;true/false&gt;
 
 ### db.read()
-Description: Read Entries In The Database
+Description: Read Entries In The Database<br>
 Example: <br>
 ```js
 // Read All Entries
