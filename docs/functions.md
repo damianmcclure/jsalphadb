@@ -12,7 +12,7 @@ Return Type: Boolean<true/false>
 <br>
 ### db.delete()
 Description: Delete A Database<br>
-Example:
+Example: <br>
 ```js
 db.delete("users");
 ```
