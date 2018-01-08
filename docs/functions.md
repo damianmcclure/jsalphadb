@@ -136,7 +136,7 @@ db.de("encoded:string");
 <br>
 Return Type: String
 
-### db.de()
+### db.printsafe()
 Description: This function prints safe version of html stuff. Completly useless unless your using a webserver or other html.
 Example: <br>
 ```js
@@ -158,4 +158,6 @@ for(var stuff of stuffs){
 }
 ```
 <br>
-What This Does: This is the basic building block of this database system. It checks each row in test_db, returns the array of lines, then a foreach statement goes thru each line. db.column() interprets the line and gets the value needed. db.de() decodes any values you may have encoded to keep spaces. and then it console.logs it.
+What This Does: This is the basic building block of this database system. It checks each row in test_db, returns the array of lines, then a foreach statement goes thru each line. db.column() interprets the line and gets the value needed. db.de() decodes any values you may have encoded to keep spaces. and then it console.logs it.<br>
+<br>
+More examples in /examples/
