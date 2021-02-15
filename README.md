@@ -1,6 +1,6 @@
 # jsalphadb
-Database system for NodeJS &amp; Port of phpAlphaDB
-Version: 1.0
+Simple flatfile database system for NodeJS &amp; Port of phpAlphaDB
+Version: 1.1
 
 ## Installation
 I recommend you install from NPM<br>
@@ -19,7 +19,12 @@ Make sure node is allowed to write to the filesystem.
 
 ## Description
 This is a JavaScript Remake of the flatfile database system made by JQuery<br>
-The purpose is to create a basic, easy to learn & use flat database system for applications
+The purpose is to create a basic, easy to learn & use flatfile database system for small applications.
+
+## Docs
+
+Check /docs/ for in detail information
+https://github.com/damianmcclure/jsalphadb/blob/master/docs/functions.md
 
 ## License
 WTFPL - http://www.wtfpl.net/
