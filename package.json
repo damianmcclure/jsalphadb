@@ -1,6 +1,6 @@
 {
   "name": "jsalphadb",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Database system for NodeJS & Port of phpAlphaDB",
   "main": "core.js",
   "repository": {
